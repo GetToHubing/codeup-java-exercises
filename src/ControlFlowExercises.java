@@ -71,24 +71,18 @@ public class ControlFlowExercises {
         int v = scanner.nextInt();
         System.out.println("Here is your table");
 
-        System.out.println("number");
-        System.out.println("------");
+                System.out.println("number | squared | cubed");
+        System.out.println("------ | ------- | -----");
         for(int d = 1; d <= v; d++) {
-            System.out.println(d);
-        }
-
-        System.out.println("squared");
-        System.out.println("------");
-        for(int d = 1; d <= v; d++) {
+//            System.out.println(d + "      |");
             int q = d*d;
-            System.out.println(q);
-        }
-
-        System.out.println("cubed");
-        System.out.println("------");
-        for(int d = 1; d <= v; d++) {
             int w = d * d * d;
-            System.out.println(w);
+            if(q > 9) {
+                System.out.printf("%s      | %s      | %s%n", d, q, w);
+
+            } else {
+                System.out.printf("%s      | %s       | %s%n", d, q, w);
+            }
         }
         System.out.println("-------------------------------");
 
