@@ -33,7 +33,6 @@ public class ConsoleExercises {
         int perimeter = (length * 2) + (width * 2);
         int area = width *length;
         System.out.printf("The area of your room is " + area + " and the perimeter is " + perimeter);
-        scanner.next();
 
 
 
