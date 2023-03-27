@@ -1,9 +1,6 @@
 import java.util.Scanner;
 public class ControlFlowExercises {
 
-    static void nums(int v) {
-
-    };
     public static void main(String[] args) {
         //1a
         int i = 5;
