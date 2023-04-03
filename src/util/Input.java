@@ -12,7 +12,7 @@ public class Input {
     }
 
     public String getString(){
-        System.out.println("Please type a random sentence.: ");
+        System.out.println("Please type your input here.: ");
         return scanner.nextLine();
     }
 
