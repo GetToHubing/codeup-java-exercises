@@ -2,19 +2,35 @@ package grades;
 
 public class StudentTest {
     public static void main(String[] args) {
-        Student student1 = new Student("David");
-        Student student2 = new Student("Josh");
+        Student David = new Student("David");
+        Student Josh = new Student("Josh");
+        Student Ryan = new Student("Ryan");
+        Student carl = new Student("Carl");
 
-        student1.addGrade(90);
-        student1.addGrade(75);
-        student1.addGrade(62);
-        student1.addGrade(80);
-        student2.addGrade(95);
-        student2.addGrade(75);
-        student2.addGrade(52);
-        student2.addGrade(80);
 
-        System.out.println(student2.getGradeAverage());
-        System.out.println(student1.getGradeAverage());
+        David.addGrade(90);
+        David.addGrade(75);
+        David.addGrade(62);
+        David.addGrade(80);
+        Josh.addGrade(95);
+        Josh.addGrade(75);
+        Josh.addGrade(52);
+        Josh.addGrade(80);
+        Ryan.addGrade(69);
+        Ryan.addGrade(88);
+        Ryan.addGrade(92);
+        Ryan.addGrade(8);
+        carl.addGrade(62);
+        carl.addGrade(99);
+        carl.addGrade(76);
+        carl.addGrade(35);
+
+
+        System.out.println(David.getGradeAverage());
+        System.out.println(Josh.getGradeAverage());
+        System.out.println(Ryan.getGradeAverage());
+        System.out.println(carl.getGradeAverage());
+
+
     }
 }
